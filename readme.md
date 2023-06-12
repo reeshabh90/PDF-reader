@@ -47,16 +47,16 @@ The answer, along with the retrieved data points and the prompt, will be printed
 ## Configuration
 The program uses environment variables to store sensitive information. You can set these variables directly in your environment or use a .env file in the root directory of the project. Here are the variables that need to be set:
 
-`AZURE_STORAGE_ACCOUNT: The name of your Azure Blob Storage account.`
-`AZURE_STORAGE_CONTAINER: The name of the container in your Azure Blob Storage where the PDF documents are stored.`
-`AZURE_SEARCH_SERVICE: The name of your Azure Cognitive Search service.`
-`AZURE_SEARCH_INDEX: The name of the search index in your Azure Cognitive Search service.`
-`AZURE_OPENAI_SERVICE: The name of your Azure OpenAI service.`
-`AZURE_OPENAI_GPT_DEPLOYMENT: The name of the OpenAI GPT model deployment.`
-`AZURE_OPENAI_CHATGPT_DEPLOYMENT: The name of the OpenAI ChatGPT deployment.`
-`KB_FIELDS_CONTENT: The field name for the content of the documents in the search index.`
-`KB_FIELDS_CATEGORY: The field name for the category of the documents in the search index.`
-`KB_FIELDS_SOURCEPAGE: The field name for the source page of the documents in the search index.`
+* `AZURE_STORAGE_ACCOUNT`: The name of your Azure Blob Storage account.
+* `AZURE_STORAGE_CONTAINER`: The name of the container in your Azure Blob Storage where the PDF documents are stored.
+* `AZURE_SEARCH_SERVICE`: The name of your Azure Cognitive Search service.
+* `AZURE_SEARCH_INDEX`: The name of the search index in your Azure Cognitive Search service.
+* `AZURE_OPENAI_SERVICE`: The name of your Azure OpenAI service.
+* `AZURE_OPENAI_GPT_DEPLOYMENT`: The name of the OpenAI GPT model deployment.
+* `AZURE_OPENAI_CHATGPT_DEPLOYMENT`: The name of the OpenAI ChatGPT deployment.
+* `KB_FIELDS_CONTENT`: The field name for the content of the documents in the search index.
+* `KB_FIELDS_CATEGORY`: The field name for the category of the documents in the search index.
+* `KB_FIELDS_SOURCEPAGE`: The field name for the source page of the documents in the search index.
 * Make sure to set the `OPENAI_API_KEY` environment variable or update the openai.api_key line in the code with your OpenAI API key.
 
 ## Limitations
